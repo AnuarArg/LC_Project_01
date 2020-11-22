@@ -80,9 +80,10 @@ describe('VERIFY THAT Dairy page for student role', () => {
     expect(DiaryPage.createReportBtnDairyPage.isClickable()).toEqual(true);
   });
   it("TC-82.3 Verify that create day report button text = 'Create day report' on Diary page", () => {
-    expect(DiaryPage.createReportBtnDairyPage.getText()).toEqual(ProfilePage.createBtn);
+    expect(DiaryPage.createReportBtnDairyPage.getText()).toEqual(ExpectedData.profilePage.createBtn);
   });
   it('TC-83 Verify that Dairy page has 10 last reports  ', function () {
-    expect(DiaryPage.numberReportsOnPage.length).toEqual(10);
+    expect(DiaryPage.numberReportsOnPage.length).toEqual(10)
   });
 });
+
