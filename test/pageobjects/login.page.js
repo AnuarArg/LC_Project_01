@@ -1,28 +1,26 @@
-import BasePage from "./BasePage";
+import BasePage from './Base.page';
 
 class LoginPage extends BasePage {
   get loginEmail() {
-    return $("#normal_login_email");
+    return $('#normal_login_email');
   }
 
   get loginPassword() {
-    return $("#normal_login_password");
+    return $('#normal_login_password');
   }
 
   get loginButton() {
-    return $(".login-form-button");
+    return $('.login-form-button');
   }
 
-
-
-  login(user, password){
+  login(user, password) {
     this.loginEmail.setValue(user);
     this.loginPassword.setValue(password);
     this.loginButton.click();
   }
 
   open() {
-    super.open("/user/login");
+    super.open('/user/login');
   }
 }
 

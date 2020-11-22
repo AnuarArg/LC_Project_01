@@ -1,12 +1,12 @@
-import BasePage from "./BasePage";
+import BasePage from './Base.page';
 
 class DiaryPage extends BasePage {
   open() {
-    super.open("/diary");
+    super.open('/diary');
   }
 
   get createReportBtn() {
-    return $(".ant-btn-primary");
+    return $('.ant-btn-primary');
   }
 }
 
