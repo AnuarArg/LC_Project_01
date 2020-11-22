@@ -1,12 +1,16 @@
 import BasePage from './Base.page';
 
 class DiaryPage extends BasePage {
-  open() {
-    super.open('/diary');
-  }
-
   get createReportBtn() {
     return $('.ant-btn-primary');
+  }
+
+  get headerDiaryPage() {
+    return $('h1');
+  }
+
+  open() {
+    super.open('/diary');
   }
 }
 
