@@ -10,6 +10,7 @@ const profilePage = {
 const diaryPage = {
   diaryUrl: 'https://stage.localcoding.us/diary',
   createBtn: 'Create day report',
+  header: 'Daily reports',
 };
 
 module.exports = { topMenu, profilePage, diaryPage };
