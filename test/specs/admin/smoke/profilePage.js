@@ -1,9 +1,9 @@
-import LoginPage from '../../pageobjects/login.page';
-import ProfilePage from '../../pageobjects/profile.page';
-import DiaryPage from '../../pageobjects/diary.page';
+import LoginPage from '../../../pageobjects/login.page';
+import ProfilePage from '../../../pageobjects/profile.page';
+import DiaryPage from '../../../pageobjects/diary.page';
 
-import user from '../../../data/users.data';
-import { topMenu, profilePage, diaryPage } from '../../../data/expected.data';
+import user from '../../../../data/users.data';
+import { topMenu, profilePage, diaryPage } from '../../../../data/expected.data';
 
 describe('VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS', () => {
   describe('VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR ADMIN', () => {
