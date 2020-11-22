@@ -22,7 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added" />
+    <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/expected.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/diary.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/diary.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/student/diaryPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/student/regression/diaryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/student/regression/diaryPage.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +57,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1kUsgMZEnUAQ9CLzk0x5VmWwDDK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,6 +67,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -79,6 +89,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tgama\WebstormProjects\LC_Project_01\test\specs\student\regression" />
       <recent name="D:\WebstormProjects\LC_Project_01\test\specs\admin" />
       <recent name="D:\WebstormProjects\LC_Project_01\data" />
     </key>
@@ -139,6 +150,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="allure report added" />
     <option name="LAST_COMMIT_MESSAGE" value="allure report added" />
@@ -154,6 +166,10 @@
     </state>
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605776143991" />
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771549499" />
+    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1606022076409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606022076408" />
     <state x="836" y="441" width="540" height="198" key="Github.ShareDialog" timestamp="1605771191935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -162,34 +178,39 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="754" y="249" key="Github.UntrackedFilesDialog/0.0.1920.1080/1920.-38.1920.1080@0.0.1920.1080" timestamp="1605771200074" />
-    <state width="1893" height="188" key="GridCell.Tab.0.bottom" timestamp="1606015064627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="358" key="GridCell.Tab.0.bottom" timestamp="1606028580968">
+      <screen x="1920" y="187" width="1920" height="1040" />
     </state>
     <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606000434981" />
-    <state width="1893" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606015064627" />
+    <state width="1893" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606023728725" />
+    <state width="1893" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580968" />
     <state width="1336" height="249" key="GridCell.Tab.0.bottom/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086693" />
-    <state width="1893" height="188" key="GridCell.Tab.0.center" timestamp="1606015064627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="358" key="GridCell.Tab.0.center" timestamp="1606028580968">
+      <screen x="1920" y="187" width="1920" height="1040" />
     </state>
     <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606000434981" />
-    <state width="1893" height="188" key="GridCell.Tab.0.center/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606015064627" />
+    <state width="1893" height="310" key="GridCell.Tab.0.center/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606023728725" />
+    <state width="1893" height="358" key="GridCell.Tab.0.center/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580968" />
     <state width="1336" height="249" key="GridCell.Tab.0.center/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086692" />
-    <state width="1893" height="188" key="GridCell.Tab.0.left" timestamp="1606015064627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="358" key="GridCell.Tab.0.left" timestamp="1606028580967">
+      <screen x="1920" y="187" width="1920" height="1040" />
     </state>
     <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606000434981" />
-    <state width="1893" height="188" key="GridCell.Tab.0.left/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606015064627" />
+    <state width="1893" height="310" key="GridCell.Tab.0.left/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606023728725" />
+    <state width="1893" height="358" key="GridCell.Tab.0.left/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580967" />
     <state width="1336" height="249" key="GridCell.Tab.0.left/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086692" />
-    <state width="1893" height="188" key="GridCell.Tab.0.right" timestamp="1606015064627">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1893" height="358" key="GridCell.Tab.0.right" timestamp="1606028580968">
+      <screen x="1920" y="187" width="1920" height="1040" />
     </state>
     <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606000434981" />
-    <state width="1893" height="188" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606015064627" />
+    <state width="1893" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606023728725" />
+    <state width="1893" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580968" />
     <state width="1336" height="249" key="GridCell.Tab.0.right/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086692" />
-    <state x="56" y="43" width="1689" height="869" key="MergeDialog" timestamp="1605939302054">
+    <state x="56" y="43" width="1689" height="869" key="MergeDialog" timestamp="1606018623062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="56" y="43" width="1689" height="869" key="MergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605939302054" />
+    <state x="56" y="43" key="MergeDialog/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606018623062" />
     <state x="652" y="260" key="SettingsEditor" timestamp="1605856293689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,10 +225,11 @@
     </state>
     <state x="428" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605939494282" />
     <state x="428" y="243" key="Vcs.Push.Dialog.v2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771555588" />
-    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605938977181">
+    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606018617480">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605938977181" />
+    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606018617480" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1605768534128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
