@@ -20,7 +20,6 @@ describe('VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS', () => {
     });
 
     it('Verify that diary tab is clickable in the top menu', () => {
-      ProfilePage.btnSkip.click();
       expect(ProfilePage.topMenuDiaryLearner.isClickable()).toEqual(true);
     });
 

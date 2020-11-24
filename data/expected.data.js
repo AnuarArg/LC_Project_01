@@ -17,6 +17,14 @@ const diaryPage = {
   statAverageMoraleLevel: 'Average Morale Level',
 };
 
+const drawerMenu = {
+  title : "Create day report",
+  subTitle: "Marks to your daily report",
+  iNeedHelp: "I need help"
+
+
+}
+
 const digits = {
   zero: 0,
   ten: 10,
@@ -24,4 +32,4 @@ const digits = {
 
 };
 
-module.exports = { topMenu, profilePage, diaryPage, digits };
+module.exports = { topMenu, profilePage, diaryPage, digits, drawerMenu };
