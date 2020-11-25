@@ -5,6 +5,14 @@ class ProfilePage extends BasePage {
     return $$('.item')[2];
   }
 
+  get topMenuDiaryLearner() {
+    return $$('.item')[1];
+  }
+
+  get btnSkip() {
+    return $('.text-right');
+  }
+
   get createReportBtn() {
     return $('[data-qa=dailyReportsBtn]');
   }

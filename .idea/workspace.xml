@@ -54,9 +54,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1kUsgMZEnUAQ9CLzk0x5VmWwDDK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,34 +62,76 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.14.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.9" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tgama\WebstormProjects\LC_Project_01\test\specs\student\regression" />
-      <recent name="D:\WebstormProjects\LC_Project_01\test\specs\admin" />
-      <recent name="D:\WebstormProjects\LC_Project_01\data" />
+      <recent name="$PROJECT_DIR$/test/specs" />
+      <recent name="$PROJECT_DIR$/test/specs/student/regression" />
     </key>
   </component>
+  <component name="RunManager" selected="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER">
+    <configuration name="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/specs/learner/smoke/profilePage.js</test-file>
+      <test-names>
+        <name value="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/specs/learner/smoke/profilePage.js</test-file>
+      <test-names>
+        <name value="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
+        <name value="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
+        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="" />
@@ -102,10 +142,18 @@
       <workItem from="1605766615595" duration="4067000" />
       <workItem from="1605771807341" duration="79000" />
       <workItem from="1605772270529" duration="3564000" />
-      <workItem from="1605853509015" duration="7210000" />
-      <workItem from="1605861343178" duration="1680000" />
-      <workItem from="1605938240845" duration="1700000" />
-      <workItem from="1605984911200" duration="11647000" />
+      <workItem from="1605853524377" duration="4000" />
+      <workItem from="1605853534684" duration="134000" />
+      <workItem from="1605853674242" duration="2537000" />
+      <workItem from="1606018609927" duration="97000" />
+      <workItem from="1606018726395" duration="2704000" />
+      <workItem from="1606110590905" duration="10000" />
+      <workItem from="1606110684101" duration="4000" />
+      <workItem from="1606110709315" duration="17000" />
+      <workItem from="1606110736209" duration="3000" />
+      <workItem from="1606110892238" duration="434000" />
+      <workItem from="1606111664161" duration="630000" />
+      <workItem from="1606112818434" duration="7326000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>
@@ -121,14 +169,7 @@
       <option name="project" value="LOCAL" />
       <updated>1605776144144</updated>
     </task>
-    <task id="LOCAL-00003" summary="allure report added">
-      <created>1605939474612</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1605939474612</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,26 +188,29 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".gitignore" />
     <MESSAGE value="allure report added" />
     <option name="LAST_COMMIT_MESSAGE" value="allure report added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="673" y="311" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605853745356">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="673" y="314" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605776043144">
+      <screen x="0" y="25" width="1920" height="966" />
     </state>
-    <state x="673" y="311" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605853745356" />
     <state x="673" y="314" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605776043144" />
+    <state x="608" y="325" key="#com.intellij.tools.ToolEditorDialog" timestamp="1606115657361">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="608" y="325" key="#com.intellij.tools.ToolEditorDialog/0.23.1440.827@0.23.1440.827" timestamp="1606115657361" />
     <state x="421" y="72" key="CommitChangelistDialog2" timestamp="1605776143991">
       <screen x="0" y="25" width="1920" height="966" />
     </state>
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605776143991" />
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771549499" />
-    <state x="687" y="215" key="FileChooserDialogImpl" timestamp="1606022076409">
+    <state width="285" height="366" key="Git.Branch.Popup" timestamp="1606201164381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="215" key="FileChooserDialogImpl/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606022076408" />
+    <state width="285" height="366" key="Git.Branch.Popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606201164381" />
+    <state width="212" height="289" key="Git.Branch.Popup/0.23.1440.826@0.23.1440.826" timestamp="1606113272839" />
     <state x="836" y="441" width="540" height="198" key="Github.ShareDialog" timestamp="1605771191935">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -207,30 +251,30 @@
     <state width="1893" height="310" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606023728725" />
     <state width="1893" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580968" />
     <state width="1336" height="249" key="GridCell.Tab.0.right/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086692" />
-    <state x="56" y="43" width="1689" height="869" key="MergeDialog" timestamp="1606018623062">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="135" y="104" key="MergeDialog" timestamp="1606108501139">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="56" y="43" width="1689" height="869" key="MergeDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605939302054" />
-    <state x="56" y="43" key="MergeDialog/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606018623062" />
-    <state x="652" y="260" key="SettingsEditor" timestamp="1605856293689">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="135" y="104" key="MergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1606018318782" />
+    <state x="135" y="104" key="MergeDialog/0.23.1440.826@0.23.1440.826" timestamp="1606108501139" />
+    <state x="352" y="127" key="SettingsEditor" timestamp="1606115762141">
+      <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="652" y="260" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605856293689" />
     <state x="469" y="176" key="SettingsEditor/0.0.1920.1080/1920.-38.1920.1080@0.0.1920.1080" timestamp="1605771092821" />
-    <state width="498" height="451" key="SwitcherDM" timestamp="1605985328916">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="352" y="127" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1606114593322" />
+    <state x="352" y="127" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1606115762141" />
+    <state x="428" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605771555588">
+      <screen x="0" y="25" width="1920" height="968" />
     </state>
-    <state width="498" height="451" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605985328916" />
-    <state x="428" y="234" key="Vcs.Push.Dialog.v2" timestamp="1605939494282">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="428" y="234" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605939494282" />
     <state x="428" y="243" key="Vcs.Push.Dialog.v2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771555588" />
-    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1606018617480">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606112825397">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
-    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1605938977181" />
-    <state x="740" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606018617480" />
+    <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.825@0.23.1440.825" timestamp="1606018300360" />
+    <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.826@0.23.1440.826" timestamp="1606112825397" />
+    <state x="500" y="341" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606112505087">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="500" y="341" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.826@0.23.1440.826" timestamp="1606112505087" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1605768534128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

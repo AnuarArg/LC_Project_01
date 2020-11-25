@@ -1,6 +1,6 @@
 import LoginPage from '../../../pageobjects/login.page';
 import ProfilePage from '../../../pageobjects/profile.page';
-import DiaryPage from '../../../pageobjects/diary.page';
+
 
 import user from '../../../../data/users.data';
 import { topMenu, profilePage, diaryPage } from '../../../../data/expected.data';
@@ -12,7 +12,7 @@ describe('VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS', () => {
       browser.maximizeWindow();
       browser.deleteAllCookies();
       LoginPage.login(user.admin.email, user.admin.password);
-      ProfilePage.createReportBtn.waitForDisplayed();
+      ProfilePage.createReportBtn.waitForDisplayed(10000);
     });
 
     it('Verify that diary tab exist in the top menu', () => {
@@ -65,5 +65,10 @@ describe('VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS', () => {
     it('Verify that label Daily reports counter exists on profile page ', () => {
       expect(ProfilePage.dailyReportsCounter.isDisplayed()).toEqual(true);
     });
+
+    it('Verify that label Daily reports counter exists on profile page ', () => {
+      expect(ProfilePage.dailyReportsCounter.isDisplayed()).toEqual(true);
+    });
+
   });
 });

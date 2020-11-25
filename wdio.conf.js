@@ -13,7 +13,7 @@ exports.config = {
   logLevel: "silent",
   bail: 0,
   baseUrl: "https://stage.localcoding.us",
-  waitforTimeout: 5000,
+  waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
   services: ["chromedriver"],
