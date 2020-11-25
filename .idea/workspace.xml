@@ -30,9 +30,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/expected.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/admin/smoke/drawerMenuAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/admin/smoke/drawerMenuAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/diary.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/diary.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/student/regression/diaryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/student/regression/diaryPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,10 +227,14 @@
     </state>
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605776143991" />
     <state x="421" y="72" key="CommitChangelistDialog2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771549499" />
-    <state width="293" height="374" key="Git.Branch.Popup" timestamp="1606283916664">
+    <state x="111" y="99" width="1736" height="856" key="DiffContextDialog" timestamp="1606296316578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="293" height="374" key="Git.Branch.Popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606283916664" />
+    <state x="111" y="99" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606296316578" />
+    <state width="297" height="378" key="Git.Branch.Popup" timestamp="1606295998281">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="297" height="378" key="Git.Branch.Popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606295998281" />
     <state width="212" height="289" key="Git.Branch.Popup/0.23.1440.826@0.23.1440.826" timestamp="1606113272839" />
     <state x="836" y="441" width="540" height="198" key="Github.ShareDialog" timestamp="1605771191935">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -280,6 +283,10 @@
     <state x="469" y="176" key="SettingsEditor/0.0.1920.1080/1920.-38.1920.1080@0.0.1920.1080" timestamp="1605771092821" />
     <state x="352" y="127" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1606114593322" />
     <state x="352" y="127" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1606115762141" />
+    <state x="73" y="248" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1606296316578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="73" y="248" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606296316578" />
     <state x="428" y="243" key="Vcs.Push.Dialog.v2" timestamp="1605771555588">
       <screen x="0" y="25" width="1920" height="968" />
     </state>

@@ -48,8 +48,33 @@ class DiaryPage extends BasePage {
     return $$('.col-md-8');
   }
 
+  get listOfDates() {
+    return $$('.mr-2.small');
+  }
+
   open() {
     super.open('/diary');
+  }
+
+  sortedDiaryReportsByTime() {
+    const check = this.listOfDates;
+    let arr = [];
+    let x;
+    for (let i = 0; i < check.length; i++) {
+      x = check[i].getText();
+      arr.push(x);
+    }
+    let newArr = [];
+
+    for (let i = 0; i < arr.length; i++) {
+      let y = new Date(arr[i]);
+      newArr.push(y.getTime());
+    }
+
+    let sortedArr = newArr.slice();
+
+    sortedArr = sortedArr.sort((a, b) => b - a);
+    return newArr.join('') === sortedArr.join('');
   }
 }
 
