@@ -1,7 +1,7 @@
 import LoginPage from '../../../pageobjects/login.page';
 import user from '../../../../data/users.data';
 import ProfilePage from '../../../pageobjects/profile.page';
-import  { profilePage, diaryPage, digits } from '../../../../data/expected.data';
+import { profilePage, diaryPage, digits } from '../../../../data/expected.data';
 import DiaryPage from '../../../pageobjects/diary.page';
 
 describe('VERIFY THAT DIARY PAGE FOR STUDENT ROLE', () => {
@@ -91,16 +91,13 @@ describe('VERIFY THAT DIARY PAGE FOR STUDENT ROLE', () => {
     });
 
     it('TC-84 Verify that the reports sort by date and time. The last should be on the top', function () {
-        // lets finish later
+      expect(DiaryPage.sortedDiaryReportsByTime()).toEqual(true);
     });
   });
 
-
-  
-  describe('VERIFY THAT VALUE OF ELEMENTS  ARE CORRECT ON DIARY PAGE',  function () {
+  describe('VERIFY THAT VALUE OF ELEMENTS  ARE CORRECT ON DIARY PAGE', function () {
     it('TC-85 Verify that each reports has its text and its similar to the last report', function () {
       // lets finish later
     });
-  })
-
+  });
 });
