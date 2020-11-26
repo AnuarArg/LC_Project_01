@@ -15,6 +15,7 @@ const diaryPage = {
   statTodayDailyReport: 'Today Daily Reports',
   statTotalHoursSpent: 'Total Hours Spent',
   statAverageMoraleLevel: 'Average Morale Level',
+  array3dots: 'Approve, Edit, Delete',
 };
 
 const drawerMenu = {
