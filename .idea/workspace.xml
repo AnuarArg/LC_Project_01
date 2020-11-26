@@ -3,24 +3,6 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
       <change afterPath="$PROJECT_DIR$/data/waitTimes.js" afterDir="false" />
@@ -130,6 +112,8 @@
       <list>
         <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
         <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
+        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
+        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +143,11 @@
       <workItem from="1606110892238" duration="434000" />
       <workItem from="1606111664161" duration="630000" />
       <workItem from="1606112818434" duration="7326000" />
+      <workItem from="1606148141622" duration="944000" />
+      <workItem from="1606149475607" duration="252000" />
+      <workItem from="1606149854084" duration="3594000" />
+      <workItem from="1606159480213" duration="19665000" />
+      <workItem from="1606333577928" duration="9061000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>
@@ -181,15 +170,6 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
@@ -261,14 +241,16 @@
     <state width="1876" height="494" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@0.0.1920.1040" timestamp="1606376115258" />
     <state width="1893" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.187.1920.1040@1920.187.1920.1040" timestamp="1606028580968" />
     <state width="1336" height="249" key="GridCell.Tab.0.right/0.25.1920.966/1920.-13.1920.1055@0.25.1920.966" timestamp="1605773086692" />
-    <state x="135" y="104" key="MergeDialog" timestamp="1606108501139">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="180" y="102" key="MergeDialog" timestamp="1606335551896">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="180" y="102" key="MergeDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1606335551896" />
     <state x="135" y="104" key="MergeDialog/0.23.1440.825@0.23.1440.825" timestamp="1606018318782" />
     <state x="135" y="104" key="MergeDialog/0.23.1440.826@0.23.1440.826" timestamp="1606108501139" />
-    <state x="352" y="127" key="SettingsEditor" timestamp="1606115762141">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="469" y="131" key="SettingsEditor" timestamp="1606335332302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="469" y="131" key="SettingsEditor/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1606335332302" />
     <state x="469" y="176" key="SettingsEditor/0.0.1920.1080/1920.-38.1920.1080@0.0.1920.1080" timestamp="1605771092821" />
     <state x="352" y="127" key="SettingsEditor/0.23.1440.826@0.23.1440.826" timestamp="1606114593322" />
     <state x="352" y="127" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1606115762141" />
@@ -276,18 +258,21 @@
       <screen x="0" y="25" width="1920" height="968" />
     </state>
     <state x="428" y="243" key="Vcs.Push.Dialog.v2/0.25.1920.968/1920.-13.1920.1055@0.25.1920.968" timestamp="1605771555588" />
-    <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606112825397">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="671" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606335468020">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="671" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1606335468020" />
     <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.825@0.23.1440.825" timestamp="1606018300360" />
     <state x="503" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.826@0.23.1440.826" timestamp="1606112825397" />
-    <state x="500" y="341" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606112505087">
-      <screen x="0" y="23" width="1440" height="826" />
+    <state x="667" y="400" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606197417289">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="667" y="400" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1606197417289" />
     <state x="500" y="341" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.826@0.23.1440.826" timestamp="1606112505087" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1605768534128">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="625" y="232" width="672" height="651" key="search.everywhere.popup" timestamp="1606165941323">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="625" y="232" width="672" height="651" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1010@0.0.1920.1040" timestamp="1606165941323" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080/1920.-38.1920.1080@0.0.1920.1080" timestamp="1605768534128" />
   </component>
 </project>
