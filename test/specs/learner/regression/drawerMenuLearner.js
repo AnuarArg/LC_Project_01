@@ -32,6 +32,8 @@ describe('REPORT DRAWER MENU FOR LEARNER', () => {
       expect(ReportDrawerMenu.RDSubTitle.getText()).toEqual(drawerMenu.subTitle);
     });
 
+
+
     it('Verify that menu subtitle label 1 "I need help" is present', () => {
       expect(ReportDrawerMenu.RDLINeedHelp.isDisplayed()).toEqual(true);
     });
@@ -54,6 +56,220 @@ describe('REPORT DRAWER MENU FOR LEARNER', () => {
 
     it('Verify that menu subtitle label 1 "I need help" checkbox is clickable', () => {
       expect(ReportDrawerMenu.RDLINeedHelpCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 2 "I understood everything" is present', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverything.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 2 text = "I understood everything"', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverything.getText().includes(drawerMenu.understood)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 2 "I understood everything" subtext is present', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverythingSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 2 "I understood everything" subtext is correct', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverythingSubTXT.getText()).toEqual(drawerMenu.understoodSubTXT);
+    });
+
+    it('Verify that menu subtitle label 2 "I understood everything" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverythingCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 2 "I understood everything" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLIUnderstoodEverythingCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 3 "Helped classmates" is present', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmates.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 3 text = "Helped classmates"', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmates.getText().includes(drawerMenu.helped)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 3 "Helped classmates" subtext is present', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmatesSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 3 "Helped classmates" subtext is correct', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmatesSubTXT.getText()).toEqual(drawerMenu.helpedSubTXT);
+    });
+
+    it('Verify that menu subtitle label 3 "Helped classmates" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmatesCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 3 "Helped classmates" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLHelpedClassmatesCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 4 "Watched lectures" is present', () => {
+      expect(ReportDrawerMenu.RDLWatchedLectures.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 4 text = "Watched lectures"', () => {
+      expect(ReportDrawerMenu.RDLWatchedLectures.getText().includes(drawerMenu.watched)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 4 "Watched lectures" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLWatchedLecturesCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 4 "Watched lectures" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLWatchedLecturesCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 5 "Read documentation" is present', () => {
+      expect(ReportDrawerMenu.RDLRead.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 5 text = "Read documentation"', () => {
+      expect(ReportDrawerMenu.RDLRead.getText().includes(drawerMenu.read)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 5 "Read documentation" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLReadCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 5 "Read documentation" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLReadCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 6 "Code practice" is present', () => {
+      expect(ReportDrawerMenu.RDLCode.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 6 text = "Code practice"', () => {
+      expect(ReportDrawerMenu.RDLCode.getText().includes(drawerMenu.code)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 6 "Code practice" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLCodeCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 6 "Code practice" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLCodeCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 7 "Quiz practice" is present', () => {
+      expect(ReportDrawerMenu.RDLQuiz.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 7 text = "Quiz practice"', () => {
+      expect(ReportDrawerMenu.RDLQuiz.getText().includes(drawerMenu.quiz)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 7 "Quiz practice" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLQuizCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 7 "Quiz practice" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLQuizCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 8 "Interview preparation" is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewPrep.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 8 text = "Interview preparation"', () => {
+      expect(ReportDrawerMenu.RDLInterviewPrep.getText().includes(drawerMenu.interviewPrep)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 8 "Interview preparation" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewPrepCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 8 "Interview preparation" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLInterviewPrepCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 9 "Recruiter phone call" is present', () => {
+      expect(ReportDrawerMenu.RDLRecruiter.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 9 text = "Recruiter phone call"', () => {
+      expect(ReportDrawerMenu.RDLRecruiter.getText().includes(drawerMenu.recruiter)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 9 "Recruiter phone call" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLRecruiterCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 9 "Recruiter phone call" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLRecruiterCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 10 "Interview technical screen" is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewTech.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 10 text = "Interview technical screen"', () => {
+      expect(ReportDrawerMenu.RDLInterviewTech.getText().includes(drawerMenu.interviewTech)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 10 "Interview technical screen" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewTechCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 10 "Interview technical screen" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLInterviewTechCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 11 "Interview onsite" is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewOnsite.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 11 text = "Interview onsite"', () => {
+      expect(ReportDrawerMenu.RDLInterviewOnsite.getText().includes(drawerMenu.interviewOnsite)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 11 "Interview onsite" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLInterviewOnsiteCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 11 "Interview onsite" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLInterviewOnsiteCB.isClickable()).toEqual(true);
+    });
+
+
+
+    it('Verify that menu subtitle label 12 "Got a job offer" is present', () => {
+      expect(ReportDrawerMenu.RDLJobOffer.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 12 text = "Got a job offer"', () => {
+      expect(ReportDrawerMenu.RDLJobOffer.getText().includes(drawerMenu.jobOffer)).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 12 "Got a job offer" checkbox is present', () => {
+      expect(ReportDrawerMenu.RDLJobOfferCB.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that menu subtitle label 12 "Got a job offer" checkbox is clickable', () => {
+      expect(ReportDrawerMenu.RDLJobOfferCB.isClickable()).toEqual(true);
     });
 
 
