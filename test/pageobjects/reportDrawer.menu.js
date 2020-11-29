@@ -117,6 +117,40 @@ class ReportDrawerMenu {
   get RDLJobOfferCB() {
     return $$('.ant-checkbox')[11];
   }
+
+  get RDMoraleField() {
+    return $$('.ant-form-item-control-input')[1];
+
+  }
+
+  get RDMoraleFieldSubTXT() {
+    return $$('.ant-form-item-extra')[0];
+  }
+
+  get RDHoursField() {
+    return $$('.ant-form-item-control-input')[2];
+  }
+
+  get RDHoursFieldSubTXT() {
+    return $$('.ant-form-item-extra')[1];
+  }
+
+  get RDDayField() {
+    return $('#description');
+  }
+
+  get RDDayFieldSubTXT() {
+    return $$('.ant-form-item-extra')[2];
+  }
+
+  get CreateBtn() {
+    return $$('.ant-form-item-control-input')[4];
+  }
+
+
+
 }
+
+
 
 export default new ReportDrawerMenu();

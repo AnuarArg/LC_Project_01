@@ -274,5 +274,82 @@ describe('REPORT DRAWER MENU FOR LEARNER', () => {
 
 
 
+    it('Verify that field morale is present', () => {
+      expect(ReportDrawerMenu.RDMoraleField.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field morale is clickable', () => {
+      expect(ReportDrawerMenu.RDMoraleField.isClickable()).toEqual(true);
+    });
+
+    it('Verify that field morale text PlaceHolder is correct', () => {
+      expect(ReportDrawerMenu.RDMoraleField.getText()).toEqual(drawerMenu.moralePlaceholder);
+    });
+
+    it('Verify that field morale Sub text is present', () => {
+      expect(ReportDrawerMenu.RDMoraleFieldSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field morale Sub text is correct', () => {
+      expect(ReportDrawerMenu.RDMoraleFieldSubTXT.getText()).toEqual(drawerMenu.moralePlaceholderSubTXT);
+    });
+
+
+
+    it('Verify that field hours is present', () => {
+      expect(ReportDrawerMenu.RDHoursField.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field hours is clickable', () => {
+      expect(ReportDrawerMenu.RDHoursField.isClickable()).toEqual(true);
+    });
+
+    it('Verify that field hours text PlaceHolder is correct', () => {
+      expect(ReportDrawerMenu.RDHoursField.getText()).toEqual(drawerMenu.hoursPlaceholder);
+    });
+
+    it('Verify that field hours Sub text is present', () => {
+      expect(ReportDrawerMenu.RDHoursFieldSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field hours Sub text is correct', () => {
+      expect(ReportDrawerMenu.RDHoursFieldSubTXT.getText()).toEqual(drawerMenu.hoursPlaceholderSubTXT);
+    });
+
+
+
+    it('Verify that field day is present', () => {
+      expect(ReportDrawerMenu.RDDayField.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field day is clickable', () => {
+      expect(ReportDrawerMenu.RDDayField.isClickable()).toEqual(true);
+    });
+
+    it('Verify that field day text PlaceHolder is correct', () => {
+      expect(ReportDrawerMenu.RDDayField.getAttribute("placeholder")).toEqual(drawerMenu.dayPlaceholder);
+    });
+
+    it('Verify that field day Sub text is present', () => {
+      expect(ReportDrawerMenu.RDDayFieldSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that field day Sub text is correct', () => {
+      expect(ReportDrawerMenu.RDDayFieldSubTXT.getText()).toEqual(drawerMenu.dayPlaceholderSubTXT);
+    });
+
+
+    it('Verify that button Create is present', () => {
+      expect(ReportDrawerMenu.CreateBtn.isDisplayed()).toEqual(true);
+    });
+
+    it('Verify that button Create is clickable', () => {
+      expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(true);
+    });
+
+    it('Verify that button Create is correct', () => {
+      expect(ReportDrawerMenu.CreateBtn.getText()).toEqual(drawerMenu.createBtn);
+    });
   });
+
 });
