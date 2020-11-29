@@ -120,7 +120,10 @@ class ReportDrawerMenu {
 
   get RDMoraleField() {
     return $$('.ant-form-item-control-input')[1];
+  }
 
+  get RDMoraleDropDownMenu() {
+    return $$('.ant-select-item-option-content')
   }
 
   get RDMoraleFieldSubTXT() {
@@ -129,6 +132,10 @@ class ReportDrawerMenu {
 
   get RDHoursField() {
     return $$('.ant-form-item-control-input')[2];
+  }
+
+  get RDHoursDropDownMenu() {
+    return $$('.ant-select-item-option-content')
   }
 
   get RDHoursFieldSubTXT() {
@@ -143,14 +150,25 @@ class ReportDrawerMenu {
     return $$('.ant-form-item-extra')[2];
   }
 
+  get DayAlertText() {
+    return $('.ant-form-item-explain');
+  }
+
   get CreateBtn() {
     return $$('.ant-form-item-control-input')[4];
   }
 
+  get Checkbox() {
+    return $$('.ant-checkbox');
+  }
 
+  RandomCheckbox (min , max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.ceil(Math.random() * (max - min)) + min;
+  }
 
 }
-
 
 
 export default new ReportDrawerMenu();

@@ -49,7 +49,6 @@ const drawerMenu = {
 
   createBtn: 'Create',
 
-
 };
 
 const digits = {
