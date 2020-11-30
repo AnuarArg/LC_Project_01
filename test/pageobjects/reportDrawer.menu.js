@@ -155,14 +155,15 @@ class ReportDrawerMenu {
   }
 
   get CreateBtn() {
-    return $$('.ant-form-item-control-input')[4];
+    return $$('.ant-btn.ant-btn-primary')[2];
   }
 
   get Checkbox() {
     return $$('.ant-checkbox');
   }
 
-  RandomCheckbox (min , max) {
+
+    RandomCheckbox (min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.ceil(Math.random() * (max - min)) + min;
@@ -172,3 +173,4 @@ class ReportDrawerMenu {
 
 
 export default new ReportDrawerMenu();
+
