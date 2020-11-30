@@ -48,6 +48,7 @@ const drawerMenu = {
       ' Indicate how much time you have devoted to work. If you had a meeting or interview write about the result.',
 
   createBtn: 'Create',
+  dayAlert: '\'description\' must be at least 30 characters',
 
 };
 
