@@ -162,12 +162,21 @@ class ReportDrawerMenu {
     return $$('.ant-checkbox');
   }
 
+  get CheckboxChecked() {
+    return $$('.ant-checkbox-checked');
+  }
+
+  get MoraleScroll() {
+    return $$('.rc-virtual-list-scrollbar-thumb');
+  }
+
 
     RandomCheckbox (min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.ceil(Math.random() * (max - min)) + min;
   }
+
 
 }
 

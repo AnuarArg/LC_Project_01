@@ -40,6 +40,7 @@ const drawerMenu = {
   jobOffer: 'Got a job offer',
   moralePlaceholder: 'What is your morale?',
   moralePlaceholderSubTXT: 'From 0 to 10',
+  moral10: "10 – I am pleased with everything!",
   hoursPlaceholder: 'How many hours did you study/practice today?',
   hoursPlaceholderSubTXT: 'From 0 to 10',
   dayPlaceholder: 'How was your day?',
