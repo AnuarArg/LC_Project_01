@@ -2,6 +2,10 @@ class ReportDrawerMenu {
   //RDL = Report Drawer Label
   //CB = Check Box
 
+  get CloseBTN() {
+    $('.ant-drawer-close');
+  }
+
   get RDTitle() {
     return $('.ant-drawer-title');
   }
@@ -166,12 +170,12 @@ class ReportDrawerMenu {
     return $$('.ant-checkbox-checked');
   }
 
-  get MoraleScroll() {
-    return $$('.rc-virtual-list-scrollbar-thumb');
+  get MoraleSelect() {
+    return $('.ant-select-selection-item');
   }
 
 
-    RandomCheckbox (min, max) {
+    RandomInt (min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.ceil(Math.random() * (max - min)) + min;
