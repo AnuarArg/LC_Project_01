@@ -280,19 +280,229 @@ describe('DRAWER MENU', () => {
         expect(ReportDrawerMenu.RDHoursDropDownMenu.length).toEqual(10); // need 11
     });
 
-    it('TC-35 Verify that scrolling works inside checkbox for the field "How many hours did you study/practice today?"', () => {
+    xit('TC-35 Verify that scrolling works inside checkbox for the field "How many hours did you study/practice today?"', () => {
+        browser.keys("Escape");
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.RDMoraleField.click();
+        ReportDrawerMenu.RDHoursField.click();
+        ReportDrawerMenu.RDHoursDropDownMenu[19].scr
+        expect(ReportDrawerMenu.RDHoursDropDownMenu[19].isDisplayed()).toEqual(true);
+    });
 
+    xit('TC-36 Verify that your could choose any one value when click on the field "How many hours did you study/practice today?"', () => {
 
     });
 
-    it('TC-36 Verify that your could choose any one value when click on the field "How many hours did you study/practice today?"', () => {
+    it('TC-37.1 Verify that field "How was your day?" present and has a correct text inside', () => {
+        expect(ReportDrawerMenu.RDDayField.isDisplayed()).toEqual(true);
+    });
 
+    it('TC-37.2 Verify that field "How was your day?" present and has a correct text inside', () => {
+        expect(ReportDrawerMenu.RDDayField.getAttribute('placeholder')).toEqual(drawerMenu.dayPlaceholder);
+    });
+
+    it('TC-38.1 Verify that field "How was your day?" has correct added text below field', () => {
+        expect(ReportDrawerMenu.RDDayFieldSubTXT.isDisplayed()).toEqual(true);
+    });
+
+    it('TC-38.2 Verify that field "How was your day?" has correct added text below field', () => {
+        expect(ReportDrawerMenu.RDDayFieldSubTXT.getText()).toEqual(drawerMenu.dayPlaceholderSubTXT);
     });
 
 
+    it('TC-39 Verify that field "How was your day?" is clickable', () => {
+        expect(ReportDrawerMenu.RDDayField.isClickable()).toEqual(true);
+    });
+
+    it('TC-40 Verify that you can input correct text in the field "How was your day?"', () => {
+        ReportDrawerMenu.RDDayField.click();
+        ReportDrawerMenu.RDDayField.addValue(drawerMenu.TC40TestText);
+        expect(ReportDrawerMenu.RDDayField.getText()).toEqual(drawerMenu.TC40TestText);
+        //ReportDrawerMenu.RDDayField.clearValue();
+
+    });
+
+    it('TC-41 Verify that you can input 30 characters in the field "How was your day?"', () => {
+        ReportDrawerMenu.RDDayField.click();
+        let string30 = '';
+        for (let i = 1; i <= 30; i++) {
+            string30 += String.fromCharCode(ReportDrawerMenu.RandomInt(32, 120));
+        }
+        ReportDrawerMenu.RDDayField.setValue(string30);
+        const text = ReportDrawerMenu.RDDayField.getValue();
+        expect(text.length).toEqual(string30.length);
+    });
+
+    it('TC-42 Verify that you could input 300 characters in the field "How was your day?"', () => {
+        ReportDrawerMenu.RDDayField.click();
+        let string300 = '';
+        for (let i = 0; i < 300; i++) {
+            string300 += String.fromCharCode(ReportDrawerMenu.RandomInt(32, 120));
+        }
+        ReportDrawerMenu.RDDayField.setValue(string300);
+        const text = ReportDrawerMenu.RDDayField.getValue();
+        expect(text.length).toEqual(string300.length);
+    });
+
+    it('TC-43 Verify that you could not input 29 characters in the field "How was your day?"', () => {
+        ReportDrawerMenu.RDDayField.click();
+        let string29 = '';
+        for (let i = 1; i <= 29; i++) {
+            string29 += String.fromCharCode(ReportDrawerMenu.RandomInt(32, 120));
+        }
+        ReportDrawerMenu.RDDayField.setValue(string29);
+        browser.pause(2000);
+        expect(ReportDrawerMenu.DayAlertText.isDisplayed()).toEqual(true);
+    })
 
 
+    xit('TC-44 Verify that you could not use copy past for inputing uncorrect numbers of characters ' +
+        '(less then 30) in the field "How was your day?"', () => {
 
+        ncp.copy('some text', function () {
+                ReportDrawerMenu.RDDayField
+            }
+        )
+    });
 
+    it('TC-45.1 Verify that btn Create is presented on the page and title is correct', () => {
+        expect(ReportDrawerMenu.CreateBtn.isDisplayed()).toEqual(true);
+    });
+
+    it('TC-45.2 Verify that btn Create is presented on the page and title is correct', () => {
+        expect(ReportDrawerMenu.CreateBtn.getText()).toEqual(drawerMenu.createBtn);
+    });
+
+    it('TC-46 Verify that btn Create is clickable"', () => {
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(true);
+    });
+
+    it('TC-47 Verify that btn "X" is presented on the page', () => {
+        expect(ReportDrawerMenu.XButton.isDisplayed()).toEqual(true);
+    });
+
+    it('TC-48 Verify that btn "X" is clickable', () => {
+        expect(ReportDrawerMenu.XButton.isClickable()).toEqual(true);
+    });
+
+    it('TC-49 Verify that Create day report has disappeared when click "X" btn', () => {
+        ReportDrawerMenu.XButton.click();
+        expect(ReportDrawerMenu.RDTitle.isDisplayed()).toEqual(false);
+    });
+
+    // it('TC-50 Verify that btn Create unclickable when no one field was chosen', () => {
+    //
+    // });
+    //
+    // it('TC-51 Verify that errors message are appeared when no one field was chosen and click btn Create', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-52 Verify that btn Create unclickable when checkbox "Marks to your daily report" wasn\'t chosen"', () => {
+    //
+    // });
+    //
+    // it('TC-53 Verify that error message has appeared when you click btn Create and checkbox "Marks to your daily report" wasn\'t chosen', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-54 Verify that btn Create unclickable when field "What is your morale?" wasn\'t chosen', () => {
+    //
+    // });
+    //
+    // it('TC-55 Verify that error message has appeared when you click btn Create and checkbox "What is your morale?" wasn\'t chosen', () => {
+    //
+    // });
+    //
+    // it('TC-56 Verify that btn Create unclickable when field "How many hours did you study/practice today?" wasn\'t chosen', () => {
+    //
+    // });
+    //
+    // it('TC-57 Verify that error message has appeared when you click btn Create and checkbox "How many hours did you study/practice today?" wasn\'t chosen', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-58 Verify that btn Create unclickable when field "How was your day?" wasn\'t chosen', () => {
+    //
+    // });
+    //
+    // it('TC-59 Verify that error message has appeared when you click btn Create and checkbox "How was your day?" wasn\'t chosen', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-60 Verify that Refrash page works', () => {
+    //
+    // });
+    //
+    // it('TC-61 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctli when Day report was created with all choosen box', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-62 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctli when Day report was created with 5 choosen box', () => {
+    //
+    // });
+    //
+    // it('TC-63 Verify that diagram  is visible on profile page ', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-64 Verify that title of the diagram "Daily progress"', () => {
+    //
+    // });
+    //
+    // it('TC-65 Verify that the date of the last daily report similar to the last date in diagram', () => {
+    //
+    // });
+    //
+    // it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
+    //
+    // });
+    //
+    // it('TC-67 Verify that the quantity of hours of the last daily report similar to the last quantity of hours in diagram', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-68 Verify that the last daily report is appered on the top of daily reports list on profile page', () => {
+    //
+    // });
+    //
+    // it('TC-69 Verify that the corect date and time appeared with each daily report on profile page', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-70 Verify that daily reports sort by date', () => {
+    //
+    // });
+    //
+    // it('TC-71 Verify that each daily report separates by the line', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-72 Verify that the Like button is clickable on each daily report and title correct', () => {
+    //
+    // });
+    //
+    // it('TC-73 Verify that the user can Like his own daily report and counter increase one point', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-74 Verify that the Like btn became unclicable and text changes to "I like this" for this user', () => {
+    //
+    // });
 });
+
+
+
+
+
 
