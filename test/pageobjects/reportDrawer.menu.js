@@ -2,8 +2,9 @@ class ReportDrawerMenu {
   //RDL = Report Drawer Label
   //CB = Check Box
 
-  get CloseBTN() {
-    $('.ant-drawer-close');
+
+  get XButton() {
+    return $('.anticon-close');
   }
 
   get RDTitle() {
@@ -173,6 +174,8 @@ class ReportDrawerMenu {
   get MoraleSelect() {
     return $('.ant-select-selection-item');
   }
+
+
 
 
     RandomInt (min, max) {
