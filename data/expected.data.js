@@ -6,6 +6,7 @@ const profilePage = {
   createBtn: 'Create day report',
   dailyReportsLabelText: 'Daily reports',
   chartFieldNameText: 'Daily progress',
+  diagramTitleTXT: 'Daily progress',
 };
 
 const diaryPage = {
@@ -47,9 +48,10 @@ const drawerMenu = {
   dayPlaceholderSubTXT: 'Write what is useful for self-development, learning, or practice you did today.' +
       ' Write what topics you read, what videos you watched or what documentation you read, what tasks you solved or started to solve.' +
       ' Indicate how much time you have devoted to work. If you had a meeting or interview write about the result.',
-  TC40TestText: "My day today was the best! I did a lot different and interesting thinks :))@?<>^",
+  TC40TestTXT: "My day today was the best! I did a lot different and interesting thinks :))@?<>^",
   createBtn: 'Create',
   dayAlert: '\'description\' must be at least 30 characters',
+
 
 };
 

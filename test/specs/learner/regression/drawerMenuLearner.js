@@ -431,23 +431,23 @@ describe('REPORT DRAWER MENU FOR LEARNER', () => {
       expect(text).toEqual(drawerMenu.dayAlert);
     });
 
-    it('Verify that report is created ', () => {
-      for (let i = 0; i < ReportDrawerMenu.Checkbox.length; i++) {
-        ReportDrawerMenu.Checkbox[ReportDrawerMenu.RandomInt(0, 11)].click()
-      };
-      ReportDrawerMenu.RDMoraleField.click();
-      ReportDrawerMenu.RDMoraleDropDownMenu[ReportDrawerMenu.RandomInt(0, 7)].click();// need 9
-
-      ReportDrawerMenu.RDHoursField.click();
-      ReportDrawerMenu.RDHoursDropDownMenu[ReportDrawerMenu.RandomInt(10, 17)].click();// need 19
-
-      ReportDrawerMenu.RDDayField.click();
-      ReportDrawerMenu.RDDayField.setValue('first 11112222233334444555666777');
-
-      ReportDrawerMenu.CreateBtn.click();
-      browser.pause(10000)
-      //expect(text).toEqual(drawerMenu.dayAlert);
-    });
+    // it('Verify that report is created ', () => {
+    //   for (let i = 0; i < ReportDrawerMenu.Checkbox.length; i++) {
+    //     ReportDrawerMenu.Checkbox[ReportDrawerMenu.RandomInt(0, 11)].click()
+    //   };
+    //   ReportDrawerMenu.RDMoraleField.click();
+    //   ReportDrawerMenu.RDMoraleDropDownMenu[ReportDrawerMenu.RandomInt(0, 7)].click();// need 9
+    //
+    //   ReportDrawerMenu.RDHoursField.click();
+    //   ReportDrawerMenu.RDHoursDropDownMenu[ReportDrawerMenu.RandomInt(10, 17)].click();// need 19
+    //
+    //   ReportDrawerMenu.RDDayField.click();
+    //   ReportDrawerMenu.RDDayField.setValue('first 11112222233334444555666777');
+    //
+    //   ReportDrawerMenu.CreateBtn.click();
+    //   browser.pause(10000)
+    //   //expect(text).toEqual(drawerMenu.dayAlert);
+    // });
 
 
 

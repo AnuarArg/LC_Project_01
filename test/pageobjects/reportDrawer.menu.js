@@ -159,6 +159,10 @@ class ReportDrawerMenu {
     return $('.ant-form-item-explain');
   }
 
+  get DayAlerts(){
+    return $$('.ant-form-item-explain');
+  }
+
   get CreateBtn() {
     return $$('.ant-btn.ant-btn-primary')[2];
   }
@@ -174,6 +178,7 @@ class ReportDrawerMenu {
   get MoraleSelect() {
     return $('.ant-select-selection-item');
   }
+
 
 
 
