@@ -13,5 +13,6 @@
     <orderEntry type="library" name="@types/mocha" level="application" />
     <orderEntry type="library" name="@types/selenium-standalone" level="application" />
     <orderEntry type="library" name="@types/node" level="application" />
+    <orderEntry type="library" name="@types/7zip-min" level="application" />
   </component>
 </module>

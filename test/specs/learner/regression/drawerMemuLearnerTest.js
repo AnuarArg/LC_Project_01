@@ -280,7 +280,7 @@ describe('DRAWER MENU', () => {
         expect(ReportDrawerMenu.RDHoursDropDownMenu.length).toEqual(10); // need 11
     });
 
-    xit('TC-35 Verify that scrolling works inside checkbox for the field "How many hours did you study/practice today?"', () => {
+    it('TC-35 Verify that scrolling works inside checkbox for the field "How many hours did you study/practice today?"', () => {
         browser.keys("Escape");
         ProfilePage.createReportBtn.click();
         ReportDrawerMenu.RDMoraleField.click();
@@ -316,8 +316,8 @@ describe('DRAWER MENU', () => {
 
     it('TC-40 Verify that you can input correct text in the field "How was your day?"', () => {
         ReportDrawerMenu.RDDayField.click();
-        ReportDrawerMenu.RDDayField.addValue(drawerMenu.TC40TestText);
-        expect(ReportDrawerMenu.RDDayField.getText()).toEqual(drawerMenu.TC40TestText);
+        ReportDrawerMenu.RDDayField.addValue(drawerMenu.TC40TestTXT);
+        expect(ReportDrawerMenu.RDDayField.getText()).toEqual(drawerMenu.TC40TestTXT);
         //ReportDrawerMenu.RDDayField.clearValue();
 
     });
@@ -351,7 +351,7 @@ describe('DRAWER MENU', () => {
             string29 += String.fromCharCode(ReportDrawerMenu.RandomInt(32, 120));
         }
         ReportDrawerMenu.RDDayField.setValue(string29);
-        browser.pause(2000);
+
         expect(ReportDrawerMenu.DayAlertText.isDisplayed()).toEqual(true);
     })
 
@@ -390,76 +390,172 @@ describe('DRAWER MENU', () => {
         expect(ReportDrawerMenu.RDTitle.isDisplayed()).toEqual(false);
     });
 
-    // it('TC-50 Verify that btn Create unclickable when no one field was chosen', () => {
-    //
-    // });
-    //
-    // it('TC-51 Verify that errors message are appeared when no one field was chosen and click btn Create', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-52 Verify that btn Create unclickable when checkbox "Marks to your daily report" wasn\'t chosen"', () => {
-    //
-    // });
-    //
-    // it('TC-53 Verify that error message has appeared when you click btn Create and checkbox "Marks to your daily report" wasn\'t chosen', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-54 Verify that btn Create unclickable when field "What is your morale?" wasn\'t chosen', () => {
-    //
-    // });
-    //
-    // it('TC-55 Verify that error message has appeared when you click btn Create and checkbox "What is your morale?" wasn\'t chosen', () => {
-    //
-    // });
-    //
-    // it('TC-56 Verify that btn Create unclickable when field "How many hours did you study/practice today?" wasn\'t chosen', () => {
-    //
-    // });
-    //
-    // it('TC-57 Verify that error message has appeared when you click btn Create and checkbox "How many hours did you study/practice today?" wasn\'t chosen', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-58 Verify that btn Create unclickable when field "How was your day?" wasn\'t chosen', () => {
-    //
-    // });
-    //
-    // it('TC-59 Verify that error message has appeared when you click btn Create and checkbox "How was your day?" wasn\'t chosen', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-60 Verify that Refrash page works', () => {
-    //
-    // });
-    //
-    // it('TC-61 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctli when Day report was created with all choosen box', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-62 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctli when Day report was created with 5 choosen box', () => {
-    //
-    // });
-    //
-    // it('TC-63 Verify that diagram  is visible on profile page ', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-64 Verify that title of the diagram "Daily progress"', () => {
-    //
-    // });
-    //
+    it('TC-50 Verify that btn Create unclickable when no one field was chosen', () => {
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.CreateBtn.waitForDisplayed();
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(false);
+    });
+
+    it('TC-51 Verify that errors message are appeared when no one field was chosen and click btn Create', () => {
+        //ProfilePage.createReportBtn.click();
+        //ReportDrawerMenu.CreateBtn.scrollIntoView();
+        ReportDrawerMenu.CreateBtn.click();
+
+        expect(ReportDrawerMenu.DayAlerts.length).toEqual(4);
+
+
+        // const alerts = ReportDrawerMenu.DayAlerts;
+        // let arr = [];
+        // let x;
+        // for (let i = 0; i < alerts.length ; i++) {
+        //     x = alerts[i].getText();
+        //     arr.push(x);
+        // }
+        // console.log(arr);
+    });
+
+    it('TC-52 Verify that btn Create unclickable when checkbox "Marks to your daily report" wasn\'t chosen"', () => {
+
+        ReportDrawerMenu.XButton.click();
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.CreateBtn.waitForDisplayed();
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(false);
+    });
+
+    it('TC-53 Verify that error message has appeared when you click btn Create and checkbox "Marks to your daily report" wasn\'t chosen', () => {
+
+        ReportDrawerMenu.CreateBtn.scrollIntoView();
+        ReportDrawerMenu.CreateBtn.click();
+
+        expect(ReportDrawerMenu.DayAlerts[0].isDisplayed()).toEqual(true);
+
+    });
+
+    it('TC-54 Verify that btn Create unclickable when field "What is your morale?" wasn\'t chosen', () => {
+
+        ReportDrawerMenu.XButton.click();
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.CreateBtn.waitForDisplayed();
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(false);
+    });
+
+    it('TC-55 Verify that error message has appeared when you click btn Create and checkbox "What is your morale?" wasn\'t chosen', () => {
+
+        ReportDrawerMenu.CreateBtn.scrollIntoView();
+        ReportDrawerMenu.CreateBtn.click();
+
+        expect(ReportDrawerMenu.DayAlerts[1].isDisplayed()).toEqual(true);
+
+    });
+
+    it('TC-56 Verify that btn Create unclickable when field "How many hours did you study/practice today?" wasn\'t chosen', () => {
+        ReportDrawerMenu.XButton.click();
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.CreateBtn.waitForDisplayed();
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(false);
+
+    });
+
+    it('TC-57 Verify that error message has appeared when you click btn Create and checkbox "How many hours did you study/practice today?" wasn\'t chosen', () => {
+
+        ReportDrawerMenu.CreateBtn.scrollIntoView();
+        ReportDrawerMenu.CreateBtn.click();
+
+        expect(ReportDrawerMenu.DayAlerts[2].isDisplayed()).toEqual(true);
+
+    });
+
+    it('TC-58 Verify that btn Create unclickable when field "How was your day?" empty', () => {
+        ReportDrawerMenu.XButton.click();
+        ProfilePage.createReportBtn.click();
+        ReportDrawerMenu.CreateBtn.waitForDisplayed();
+        expect(ReportDrawerMenu.CreateBtn.isClickable()).toEqual(false);
+
+    });
+
+    it('TC-59 Verify that error message has appeared when you click btn Create and checkbox "How was your day?" wasn\'t chosen', () => {
+        ReportDrawerMenu.CreateBtn.scrollIntoView();
+        ReportDrawerMenu.CreateBtn.click();
+
+        expect(ReportDrawerMenu.DayAlerts[3].isDisplayed()).toEqual(true);
+
+
+    });
+
+    it('TC-60 Verify that Refrash page works', () => {
+
+        browser.refresh();
+        ProfilePage.profileName.waitForDisplayed()
+        expect(ProfilePage.profileName.isDisplayed()).toEqual(true)
+        // expect(browser.url).toEqual('https://stage.localcoding.us/profile/5fb766de3ed01e006ad30217');
+
+
+    });
+
+    it('TC-61 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctly when Day report was created with all choosen box', () => {
+
+        //browser.keys("Escape");
+      ProfilePage.createReportBtn.click();
+
+
+        const links = $$('.ant-checkbox')
+        links.forEach((el) => {
+            el.click()
+        })
+
+        ReportDrawerMenu.RDMoraleField.click();
+        ReportDrawerMenu.RDMoraleDropDownMenu[ReportDrawerMenu.RandomInt(0, 7)].click();// need 9
+
+        ReportDrawerMenu.RDHoursField.click();
+        ReportDrawerMenu.RDHoursDropDownMenu[ReportDrawerMenu.RandomInt(10, 17)].click();// need 19
+
+        ReportDrawerMenu.RDDayField.click();
+        ReportDrawerMenu.RDDayField.setValue('TC-61 Verify that icons from choosen checkbox "Marks to your daily report"');
+
+        ReportDrawerMenu.CreateBtn.click();
+         browser.pause(2000)
+        expect(ProfilePage.reportCheckBox.length).toEqual(12);
+    });
+
+
+
+
+    it ('TC-62 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctly when Day report was created with 5 choosen box', () => {
+
+        ProfilePage.createReportBtn.click();
+
+       // ReportDrawerMenu.Checkbox.waitForDisplayed()
+        for (let i = 0; i < 5; i++) {
+            ReportDrawerMenu.Checkbox[i].click()
+        }
+
+        ReportDrawerMenu.RDMoraleField.click();
+        ReportDrawerMenu.RDMoraleDropDownMenu[ReportDrawerMenu.RandomInt(0, 7)].click();// need 9
+
+        ReportDrawerMenu.RDHoursField.click();
+        ReportDrawerMenu.RDHoursDropDownMenu[ReportDrawerMenu.RandomInt(10, 17)].click();// need 19
+
+        ReportDrawerMenu.RDDayField.click();
+        ReportDrawerMenu.RDDayField.setValue('TC-62 Verify that icons from choosen checkbox "Marks to your daily report"');
+
+        ReportDrawerMenu.CreateBtn.click();
+        browser.pause(2000);
+        expect(ProfilePage.reportCheckBox.length).toEqual(5);
+    });
+
+    it('TC-63 Verify that diagram  is visible on profile page ', () => {
+        expect(ProfilePage.diagram.isDisplayed()).toEqual(true);
+    });
+
+    it('TC-64 Verify that title of the diagram "Daily progress"', () => {
+        expect(ProfilePage.diagramTitle.getText()).toEqual(profilePage.diagramTitleTXT)
+
+    });
+
     // it('TC-65 Verify that the date of the last daily report similar to the last date in diagram', () => {
     //
     // });
-    //
+
     // it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
     //
     // });
@@ -500,9 +596,3 @@ describe('DRAWER MENU', () => {
     //
     // });
 });
-
-
-
-
-
-

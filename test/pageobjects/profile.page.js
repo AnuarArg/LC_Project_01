@@ -33,5 +33,22 @@ class ProfilePage extends BasePage {
     return $('.ml-2');
   }
 
+  get reportCheckBox(){
+    //return $$('.ant-row')[7];
+    return $$("//div[2]/div[2]/span[1]/span")
+  }
+
+  get profileName(){
+    return $('.mb-auto.mt-auto')
+  }
+
+  get diagram() {
+    return $$('.recharts-surface')[0]
+  }
+
+  get diagramTitle(){
+    return $$('h5')[1]
+  }
+
 }
 export default new ProfilePage();
