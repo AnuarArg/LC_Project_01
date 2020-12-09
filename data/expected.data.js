@@ -7,6 +7,7 @@ const profilePage = {
   dailyReportsLabelText: 'Daily reports',
   chartFieldNameText: 'Daily progress',
   diagramTitleTXT: 'Daily progress',
+  likeButtonTXT: 'Like 👍0',
 };
 
 const diaryPage = {

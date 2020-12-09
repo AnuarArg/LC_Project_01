@@ -50,5 +50,13 @@ class ProfilePage extends BasePage {
     return $$('h5')[1]
   }
 
+  get line(){
+    return  $('hr')
+  }
+
+  get likeButton(){
+    return $$('//span[contains(text(),"Like")]');
+  }
+
 }
 export default new ProfilePage();
