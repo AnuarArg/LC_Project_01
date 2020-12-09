@@ -426,7 +426,7 @@ describe('DRAWER MENU', () => {
 
         ReportDrawerMenu.CreateBtn.scrollIntoView();
         ReportDrawerMenu.CreateBtn.click();
-
+        browser.pause(2000);
         expect(ReportDrawerMenu.DayAlerts[0].isDisplayed()).toEqual(true);
 
     });
@@ -443,7 +443,7 @@ describe('DRAWER MENU', () => {
 
         ReportDrawerMenu.CreateBtn.scrollIntoView();
         ReportDrawerMenu.CreateBtn.click();
-
+        browser.pause(2000);
         expect(ReportDrawerMenu.DayAlerts[1].isDisplayed()).toEqual(true);
 
     });
@@ -460,7 +460,7 @@ describe('DRAWER MENU', () => {
 
         ReportDrawerMenu.CreateBtn.scrollIntoView();
         ReportDrawerMenu.CreateBtn.click();
-
+        browser.pause(1000)
         expect(ReportDrawerMenu.DayAlerts[2].isDisplayed()).toEqual(true);
 
     });
@@ -476,7 +476,7 @@ describe('DRAWER MENU', () => {
     it('TC-59 Verify that error message has appeared when you click btn Create and checkbox "How was your day?" wasn\'t chosen', () => {
         ReportDrawerMenu.CreateBtn.scrollIntoView();
         ReportDrawerMenu.CreateBtn.click();
-
+        browser.pause(1000)
         expect(ReportDrawerMenu.DayAlerts[3].isDisplayed()).toEqual(true);
 
 
@@ -565,11 +565,11 @@ describe('DRAWER MENU', () => {
     //
     // });
     //
-    // it('TC-68 Verify that the last daily report is appered on the top of daily reports list on profile page', () => {
+    // it('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page', () => {
     //
     // });
     //
-    // it('TC-69 Verify that the corect date and time appeared with each daily report on profile page', () => {
+    // it('TC-69 Verify that the correct date and time appeared with each daily report on profile page', () => {
     //
     //
     // });
@@ -578,21 +578,41 @@ describe('DRAWER MENU', () => {
     //
     // });
     //
-    // it('TC-71 Verify that each daily report separates by the line', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-72 Verify that the Like button is clickable on each daily report and title correct', () => {
-    //
-    // });
-    //
-    // it('TC-73 Verify that the user can Like his own daily report and counter increase one point', () => {
-    //
-    //
-    // });
-    //
-    // it('TC-74 Verify that the Like btn became unclicable and text changes to "I like this" for this user', () => {
+    it('TC-71 Verify that each daily report separates by the line', () => {
+        expect(ProfilePage.line.isDisplayed()).toEqual(true);
+
+    });
+
+    it('TC-72.1 Verify that the Like button is displayed on  daily report ', () => {
+        expect(ProfilePage.likeButton[0].isDisplayed()).toEqual(true);
+
+    });
+
+    it('TC-72.2 Verify that the Like button is clickable on  daily report ', () => {
+        expect(ProfilePage.likeButton[0].isClickable()).toEqual(true);
+
+    });
+
+    it('TC-72.3 Verify that the Like button  title is correct', () => {
+        expect(ProfilePage.likeButton[0].getText()).toEqual(profilePage.likeButtonTXT);
+
+    });
+
+    it('TC-72.4 Verify that the Like button is clickable on each daily report and title correct', () => {
+
+
+    });
+
+    it('TC-73.1 Verify that the user can Like his own daily report ', () => {
+
+
+    });
+    it('TC-73.2 Verify that the user can Like his own daily report and counter increase one point', () => {
+
+
+    });
+
+    // it('TC-74 Verify that the Like btn became unclickable and text changes to "I like this" for this user', () => {
     //
     // });
 });

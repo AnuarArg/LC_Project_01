@@ -23,14 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/template.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/expected.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMenuLearner.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMenuLearner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,6 +180,7 @@
       <workItem from="1607358220662" duration="2768000" />
       <workItem from="1607379344115" duration="282000" />
       <workItem from="1607407301155" duration="13024000" />
+      <workItem from="1607497501489" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>
