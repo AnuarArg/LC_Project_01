@@ -54,6 +54,22 @@ class ProfilePage extends BasePage {
     return  $('hr')
   }
 
+  get lastReportDiagram(){
+    return $$('.recharts-cartesian-axis-tick-value')[14]
+  }
+
+  get lastReportProfPage(){
+    return $$('//div[2]/div/div[2]/div')[0]
+  }
+  get reportDate(){
+    return $$('//div[1][@class="ant-row"]')
+  }
+
+  get reportText1(){
+    return $$('.ant-row.mb-4')[0]
+  }
+
+
   get likeButton(){
     return $$('//span[contains(text(),"Like")]');
   }
