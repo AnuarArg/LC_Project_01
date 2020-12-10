@@ -24,7 +24,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/expected.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" afterDir="false" />
     </list>
@@ -43,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="12/8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,6 +180,7 @@
       <workItem from="1607379344115" duration="282000" />
       <workItem from="1607407301155" duration="13024000" />
       <workItem from="1607497501489" duration="4032000" />
+      <workItem from="1607579897801" duration="10980000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>

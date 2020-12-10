@@ -496,8 +496,6 @@ describe('DRAWER MENU', () => {
 
         //browser.keys("Escape");
       ProfilePage.createReportBtn.click();
-
-
         const links = $$('.ant-checkbox')
         links.forEach((el) => {
             el.click()
@@ -520,7 +518,7 @@ describe('DRAWER MENU', () => {
 
 
 
-    it ('TC-62 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctly when Day report was created with 5 choosen box', () => {
+    xit ('TC-62 Verify that icons from choosen checkbox "Marks to your daily report" displayed correctly when Day report was created with 5 choosen box', () => {
 
         ProfilePage.createReportBtn.click();
 
@@ -552,23 +550,55 @@ describe('DRAWER MENU', () => {
 
     });
 
-    // it('TC-65 Verify that the date of the last daily report similar to the last date in diagram', () => {
-    //
-    // });
+    it('TC-65 Verify that the date of the last daily report similar to the last date in diagram', () => {
 
-    // it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
-    //
-    // });
-    //
+        const d = new Date(ProfilePage.lastReportProfPage.getText())
+        let day = d.getDate();
+        let month = d.getMonth()
+        let lastDate = (month + 1 + "." + day);
+        expect(ProfilePage.lastReportDiagram.getText()).toEqual(lastDate);
+
+    });
+
+    it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
+
+    });
+
     // it('TC-67 Verify that the quantity of hours of the last daily report similar to the last quantity of hours in diagram', () => {
     //
     //
     // });
     //
-    // it('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page', () => {
-    //
-    // });
-    //
+    it('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page', () => {
+
+
+        ProfilePage.createReportBtn.click();
+
+
+        browser.pause(2000);
+        ReportDrawerMenu.Checkbox[3].click()
+
+        ReportDrawerMenu.RDMoraleField.click();
+        ReportDrawerMenu.RDMoraleDropDownMenu[7].click();// need 9
+
+        ReportDrawerMenu.RDHoursField.click();
+        ReportDrawerMenu.RDHoursDropDownMenu[15].click();// need 19
+
+        ReportDrawerMenu.RDDayField.click();
+        ReportDrawerMenu.RDDayField.setValue('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page');
+
+        ReportDrawerMenu.CreateBtn.click();
+        browser.pause(2000);
+
+        expect(ProfilePage.reportText1.getText().includes('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page')).toEqual(true)
+
+
+
+
+
+
+    });
+
     // it('TC-69 Verify that the correct date and time appeared with each daily report on profile page', () => {
     //
     //
