@@ -560,20 +560,59 @@ describe('DRAWER MENU', () => {
 
     });
 
-    it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
+    // it('TC-66 Verify that the morale level of the last daily report similar to the last morale level in diagram', () => {
+    //
+    // });
+
+    it('TC-66-67 Verify that the quantity of hours of the morale level /last daily report similar to the last quantity of hours in diagram', () => {
+
+        browser.maximizeWindow();
+        ProfilePage.createReportBtn.click();
+
+        browser.pause(2000);
+        ReportDrawerMenu.Checkbox[3].click()
+
+        ReportDrawerMenu.RDMoraleField.click();
+        ReportDrawerMenu.RDMoraleDropDownMenu[1].click();// must be 9
+
+        let moraleLevel = ReportDrawerMenu.MoraleSelect.getText();
+
+        ReportDrawerMenu.RDHoursField.click();
+        ReportDrawerMenu.RDHoursDropDownMenu[15].click();// must be 5
+        let hoursLevel = ReportDrawerMenu.HoursSelect.getText();
+
+        ReportDrawerMenu.RDDayField.click();
+        ReportDrawerMenu.RDDayField.setValue('TC-67 Verify that the quantity of hours of the last daily');
+
+        ReportDrawerMenu.CreateBtn.click();
+        browser.pause(2000);
+
+        let strDiagram = ProfilePage.reportStrDiagram.getAttribute('d');
+        console.log('***************************'+ typeof(strDiagram) + strDiagram);
+        let arrDiagram = strDiagram.split(',');
+        let x = (arrDiagram[arrDiagram.length - 2] - 66);
+        let y = arrDiagram[arrDiagram.length - 1];
+
+        console.log('x =  ' + x);
+        console.log('y =  ' + y);
+
+        ProfilePage.chartTooltipLine.moveTo({xOffset: x, yOffset: +y });
+        browser.pause(5000);
+
+        let textMorale = ProfilePage.chartTextMorale.getText();
+        let textHours = ProfilePage.chartTextHours.getText();
+        console.log("@@@@@@@@@@@@@@@@@@@@@@ textMorale  @@@@@@@@@@------ " + textMorale);
+        console.log("@@@@@@@@@@@@@@@@@@@@@@  textHours  @@@@@@@@@@@------ " + textHours);
+
+        expect(textMorale.includes(moraleLevel)).toEqual(true);
+        expect(textHours.includes(hoursLevel)).toEqual(true);
+
 
     });
 
-    // it('TC-67 Verify that the quantity of hours of the last daily report similar to the last quantity of hours in diagram', () => {
-    //
-    //
-    // });
-    //
     it('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page', () => {
 
-
         ProfilePage.createReportBtn.click();
-
 
         browser.pause(2000);
         ReportDrawerMenu.Checkbox[3].click()
@@ -591,23 +630,16 @@ describe('DRAWER MENU', () => {
         browser.pause(2000);
 
         expect(ProfilePage.reportText1.getText().includes('TC-68 Verify that the last daily report is appeared on the top of daily reports list on profile page')).toEqual(true)
-
-
-
-
-
-
     });
 
     // it('TC-69 Verify that the correct date and time appeared with each daily report on profile page', () => {
-    //
     //
     // });
     //
     // it('TC-70 Verify that daily reports sort by date', () => {
     //
     // });
-    //
+
     it('TC-71 Verify that each daily report separates by the line', () => {
         expect(ProfilePage.line.isDisplayed()).toEqual(true);
 
@@ -628,19 +660,19 @@ describe('DRAWER MENU', () => {
 
     });
 
-    it('TC-72.4 Verify that the Like button is clickable on each daily report and title correct', () => {
-
-
-    });
-
-    it('TC-73.1 Verify that the user can Like his own daily report ', () => {
-
-
-    });
-    it('TC-73.2 Verify that the user can Like his own daily report and counter increase one point', () => {
-
-
-    });
+    // it('TC-72.4 Verify that the Like button is clickable on each daily report and title correct', () => {
+    //
+    //
+    // });
+    //
+    // it('TC-73.1 Verify that the user can Like his own daily report ', () => {
+    //
+    //
+    // });
+    // it('TC-73.2 Verify that the user can Like his own daily report and counter increase one point', () => {
+    //
+    //
+    // });
 
     // it('TC-74 Verify that the Like btn became unclickable and text changes to "I like this" for this user', () => {
     //

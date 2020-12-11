@@ -25,6 +25,7 @@
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
