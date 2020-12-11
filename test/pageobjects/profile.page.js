@@ -58,12 +58,32 @@ class ProfilePage extends BasePage {
     return $$('.recharts-cartesian-axis-tick-value')[14]
   }
 
+  get reportStrDiagram(){
+    return $(".recharts-curve.recharts-line-curve")
+  }
+
+  get chartTooltipLine() {
+    return $(".recharts-layer.recharts-line");
+  }
+
+  get chartTextMorale() {
+    return $$(".recharts-tooltip-item")[1];
+  }
+
+  get chartTextHours() {
+    return $$(".recharts-tooltip-item")[0];
+  }
+
+
+
+
   get lastReportProfPage(){
     return $$('//div[2]/div/div[2]/div')[0]
   }
   get reportDate(){
     return $$('//div[1][@class="ant-row"]')
   }
+
 
   get reportText1(){
     return $$('.ant-row.mb-4')[0]
@@ -73,6 +93,7 @@ class ProfilePage extends BasePage {
   get likeButton(){
     return $$('//span[contains(text(),"Like")]');
   }
+
 
 }
 export default new ProfilePage();
