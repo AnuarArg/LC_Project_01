@@ -24,9 +24,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="allure report added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMemuLearnerTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/diaryPageLearner.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/diaryPageLearner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/drawerMenuLearner.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/drawerMenuLearner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/learner/smoke/profilePageLearner.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/smoke/profilePageLearner.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="12/8" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +76,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ProjectsQA26/My_Local_Coding_8_15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LocalCodingProd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,7 +97,17 @@
       <recent name="$PROJECT_DIR$/test/specs/student/regression" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -128,10 +141,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
         <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
-        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
-        <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS" />
+        <item itemvalue="npm.test" />
         <item itemvalue="Mocha.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS.VERIFY THAT PROFILE PAGE HAS DIARY ELEMENTS IN TOP MENU FOR LEARNER" />
       </list>
     </recent_temporary>
@@ -182,6 +195,22 @@
       <workItem from="1607407301155" duration="13024000" />
       <workItem from="1607497501489" duration="4032000" />
       <workItem from="1607579897801" duration="10980000" />
+      <workItem from="1608323131670" duration="615000" />
+      <workItem from="1608382351611" duration="1391000" />
+      <workItem from="1608483561711" duration="13000" />
+      <workItem from="1608554538660" duration="639000" />
+      <workItem from="1608559694124" duration="4627000" />
+      <workItem from="1610388372848" duration="755000" />
+      <workItem from="1610390650659" duration="612000" />
+      <workItem from="1610422895585" duration="3000" />
+      <workItem from="1610423378519" duration="127000" />
+      <workItem from="1610558947745" duration="98000" />
+      <workItem from="1610646133096" duration="18000" />
+      <workItem from="1610646158998" duration="16000" />
+      <workItem from="1610817265258" duration="602000" />
+      <workItem from="1610876957033" duration="87000" />
+      <workItem from="1611061720554" duration="1673000" />
+      <workItem from="1611239054941" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>

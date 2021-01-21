@@ -426,6 +426,7 @@ describe('REPORT DRAWER MENU FOR LEARNER', () => {
         string29 += String.fromCharCode(ReportDrawerMenu.RandomInt(32, 120));
       }
       ReportDrawerMenu.RDDayField.setValue(string29);
+      browser.pause(5000)
 
       const text = ReportDrawerMenu.DayAlertText.getText();
       expect(text).toEqual(drawerMenu.dayAlert);
