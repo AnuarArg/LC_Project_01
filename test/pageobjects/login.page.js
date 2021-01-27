@@ -13,6 +13,13 @@ class LoginPage extends BasePage {
     return $('.login-form-button');
   }
 
+  get registerLink(){
+    return $("//a[contains(text(),'Create one')]");
+  }
+  goToRegisterPage(){
+    this.registerLink.click();
+  }
+
   login(user, password) {
     this.loginEmail.setValue(user);
     this.loginPassword.setValue(password);

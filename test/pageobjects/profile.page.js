@@ -1,8 +1,21 @@
 import BasePage from './Base.page';
 
 class ProfilePage extends BasePage {
+
+  get headerProfile() {
+    return $('//div/h1');
+  }
+
+  getLoginConfirmation() {
+    return this.headerProfile.getText();
+  }
+
   get topMenuDiary() {
     return $$('.item')[2];
+  }
+
+  get badgeRole() {
+    return $('.ant-badge');
   }
 
   get topMenuDiaryLearner() {
@@ -76,7 +89,6 @@ class ProfilePage extends BasePage {
 
 
 
-
   get lastReportProfPage(){
     return $$('//div[2]/div/div[2]/div')[0]
   }
@@ -93,6 +105,7 @@ class ProfilePage extends BasePage {
   get likeButton(){
     return $$('//span[contains(text(),"Like")]');
   }
+
 
 
 }

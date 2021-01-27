@@ -1,6 +1,6 @@
 exports.config = {
   runner: "local",
-  specs: ["./test/specs/**/*.js"],
+  specs: ["./test/specs/**/registerPage.js"],
   exclude: [],
   maxInstances: 5,
   capabilities: [

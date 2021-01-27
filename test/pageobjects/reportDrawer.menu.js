@@ -187,14 +187,11 @@ class ReportDrawerMenu {
     return $$('.ant-select-selection-item')[1];
   }
 
-
-
   RandomInt (min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.ceil(Math.random() * (max - min)) + min;
   }
-
 
 }
 
