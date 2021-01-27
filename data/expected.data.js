@@ -9,6 +9,12 @@ const profilePage = {
   diagramTitleTXT: 'Daily progress',
   likeButtonTXT: 'Like 👍0',
 };
+const userBadges = {
+  admin: 'admin',
+  learner: 'learner',
+  student: 'student',
+  new: 'new',
+}
 
 const diaryPage = {
   diaryUrl: 'https://stage.localcoding.us/diary',
@@ -63,4 +69,5 @@ const digits = {
   digit: null,
 };
 
-module.exports = { topMenu, profilePage, diaryPage, digits, drawerMenu };
+module.exports = { topMenu, profilePage, diaryPage, digits, drawerMenu, userBadges };
+

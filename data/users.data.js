@@ -23,6 +23,13 @@ const user = {
     firstName: 'Marry',
     lastName: 'Poppins',
   },
+  adminKesha: {
+    email: '20709@admin.us',
+    password: '123456',
+    firstName: 'Kesha',
+    lastName: 'Pakerton',
+  },
+
 };
 
 module.exports = user;
