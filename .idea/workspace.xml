@@ -23,20 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2b2c62-eda1-4f4d-affe-ad9cd2114048" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/fakeData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deleteNewUserByAxios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageobjects/register.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/pageobjects/registerStep2.page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/specs/learner/regression/registerPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/expected.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/expected.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/users.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/login.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/login.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/profile.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/profile.page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/reportDrawer.menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pageobjects/register.page.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/pageobjects/register.page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/specs/learner/regression/registerPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/specs/learner/regression/registerPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +72,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.17.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ProjectsQA26/QA6_LC_Iryna" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -203,6 +192,8 @@
       <workItem from="1611673562498" duration="4391000" />
       <workItem from="1611684400864" duration="1597000" />
       <workItem from="1611725807883" duration="6526000" />
+      <workItem from="1612073387147" duration="3318000" />
+      <workItem from="1613156675213" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary=".gitignore">
       <created>1605771549654</created>
