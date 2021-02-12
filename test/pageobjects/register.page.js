@@ -13,6 +13,10 @@ class RegisterPage extends BasePage {
     return $('#user_login_lastName');
   }
 
+  get phone() {
+    return $('#user_login_phone');
+  }
+
   get email() {
     return $('#user_login_email');
   }
@@ -40,6 +44,7 @@ class RegisterPage extends BasePage {
   registerUser(data) {
     this.firstNameInput.addValue(data.firstName);
     this.lastNameInput.addValue(data.lastName);
+    this.phone.addValue(data.phone);
     this.email.addValue(data.email);
     this.password.addValue(data.password);
     this.agreementCheckBox.click();
